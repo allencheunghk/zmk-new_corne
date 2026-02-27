@@ -13,7 +13,7 @@ layers:
   - I
   - O
   - P
-  - {t: '[', s: '{'}
+  - {t: '-', s: _}
   - '&td0'
   - {t: A, h: '$$mdi:apple-keyboard-shift$$'}
   - {t: S, h: '$$mdi:apple-keyboard-control$$'}
@@ -28,7 +28,7 @@ layers:
   - {t: K, h: '$$mdi:apple-keyboard-option$$'}
   - {t: L, h: '$$mdi:apple-keyboard-control$$'}
   - {t: ;, h: '$$mdi:apple-keyboard-shift$$', s: ':'}
-  - {t: ']', s: '}'}
+  - {t: '=', s: +}
   - $$mdi:apple-keyboard-caps$$
   - Z
   - X
@@ -41,8 +41,8 @@ layers:
   - M
   - {t: ',', s: <}
   - {t: ., s: '>'}
-  - {t: /, s: '?'}
-  - {t: \, s: '|'}
+  - {t: '[', h: /, s: '{'}
+  - {t: ']', h: \, s: '}'}
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-option$$
   - {t: LGUI, h: NUMBER}
