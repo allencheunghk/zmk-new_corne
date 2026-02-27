@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: eyelash_corne}
 layers:
   QWERTY:
-  - $$mdi:keyboard-tab$$
+  - {t: '@', h: '`'}
   - Q
   - W
   - E
@@ -43,9 +43,9 @@ layers:
   - {t: ., s: '>'}
   - {t: '[', h: /, s: '{'}
   - {t: ']', h: \, s: '}'}
-  - $$mdi:apple-keyboard-control$$
-  - $$mdi:apple-keyboard-option$$
-  - {t: LGUI, h: NUMBER}
+  - {t: C, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: V, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: Gui+Sft+LGUI, h: LGUI}
   - {t: '$$mdi:keyboard-space$$', h: NUMBER}
   - {t: '$$mdi:keyboard-return$$', h: SYMBOL}
   - {t: '$$mdi:backspace$$', h: Fn}
@@ -94,8 +94,8 @@ layers:
   - PG DN
   - RGB TOG
   - RGB EFF
-  - {t: RGB EFR, type: held}
-  - {t: '$$mdi:mouse-left-click-outline$$', type: held alternate}
+  - RGB EFR
+  - {t: '$$mdi:mouse-left-click-outline$$', type: held}
   - $$mdi:mouse-right-click-outline$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   SYMBOL:
